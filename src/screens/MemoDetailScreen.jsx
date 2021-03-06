@@ -18,7 +18,7 @@ export default function MemoDetailScreen() {
           書体やレイアウトなどを確認するための例文。本文用なので使い方を間違えると布施前にみえることがあります。
         </Text>
       </ScrollView>
-      <CircleBotton style={{ top: 160, bottom: 'auto' }}>＋</CircleBotton>
+      <CircleBotton style={{ top: 160, bottom: 'auto' }} name="edit-2" />
     </View>
   );
 }
