@@ -1,5 +1,5 @@
 import React from 'react';
-import { Shape, StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 import { string, bool, shape } from 'prop-types';
 
 export default function Hello(props) {
