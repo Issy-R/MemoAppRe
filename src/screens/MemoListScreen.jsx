@@ -6,7 +6,7 @@ import LogOutBotton from '../components/LogOutBotton';
 
 export default function MemoListScreen(props) {
   const { navigation } = props;
-  useEffect(() =>{
+  useEffect(() => {
     navigation.setOptions({
       headerRight: () => <LogOutBotton />,
     });

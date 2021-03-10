@@ -6,7 +6,7 @@ import { func } from 'prop-types';
 
 export default function LogOutBotton() {
   const navigation = useNavigation();
-  
+
   function hundlePress() {
     firebase.auth().signOut()
       .then(() => {
