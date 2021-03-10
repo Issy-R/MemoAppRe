@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { StyleSheet, View } from 'react-native';
 import MemoList from '../components/MemoList';
 import CircleBotton from '../components/CircleBotton';
+import LogOutBotton from '../components/LogOutBotton';
 
 export default function MemoListScreen(props) {
   const { navigation } = props;
+  useEffect(() =>{
+    navigation.setOptions({
+      headerRight: () => <LogOutBotton />,
+    });
+  }, []);
   return (
     <View style={styles.container}>
       <MemoList />
