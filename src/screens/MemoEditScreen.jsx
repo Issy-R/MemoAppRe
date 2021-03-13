@@ -8,7 +8,6 @@ import firebase from 'firebase';
 import CircleBotton from '../components/CircleBotton';
 import KeyboardSafeView from '../components/KeyboardSafeView';
 
-
 export default function MemoEditScreen(props) {
   const { navigation, route } = props;
   const { id, bodyText } = route.params;
