@@ -4,7 +4,6 @@ import {
 } from 'react-native';
 import firebase from 'firebase';
 import { useNavigation } from '@react-navigation/native';
-import { func } from 'prop-types';
 
 export default function LogOutBotton() {
   const navigation = useNavigation();
