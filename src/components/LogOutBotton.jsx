@@ -18,7 +18,7 @@ export default function LogOutBotton() {
         });
       })
       .catch(() => {
-        Alert.alert('ログアウトに失敗しました。')
+        Alert.alert('ログアウトに失敗しました。');
       });
   }
   return (
